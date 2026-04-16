@@ -1,0 +1,25 @@
+project_id = "ratcxcplbccbhkndhafm"
+
+[functions.create-razorpay-order]
+verify_jwt = false
+
+[functions.verify-razorpay-payment]
+verify_jwt = false
+
+[functions.log-failed-login]
+verify_jwt = false
+
+[functions.send-admin-approval-email]
+verify_jwt = false
+
+[functions.approve-admin]
+verify_jwt = false
+
+[functions.create-tenant-schema]
+verify_jwt = false
+
+[functions.create-manager]
+verify_jwt = true
+
+[functions.ensure-super-admin]
+verify_jwt = false
